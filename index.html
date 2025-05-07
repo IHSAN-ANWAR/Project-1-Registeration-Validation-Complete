@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register-form validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <form  action="">
+            <h2>Register</h2>    
+            <div class="form-section">
+                <div class="input-container">
+                    <input type="text" required  id="fullname">
+                    <label for="">Full name</label>
+                    <div class="error" id="fullnameerror"></div>
+                </div>
+                <div class="input-container">
+                    <input type="text" required id="username">
+                    <label for=""> Username</label>
+                    <div class="error" id="usernameerror"></div>
+                </div>
+                <div class="input-container">
+                    <input type="text" required  id="email">
+                    <label for=""> Email </label>
+                    <div class="error" id="emailerror"></div>
+                </div>
+                <div class="input-container">
+                    <input type="password" required id="password">
+                    <label for=""> Password</label>
+                    <div class="error" id="passworderror"></div>
+                </div>
+                <div class="input-container">
+                <input type="password" required id="confirmpassword">
+                <label for=""> Confirm Password</label>
+                <div class="error" id="confirmpassworderror"></div>
+                </div>
+            </div>
+            <button class="btn"> Register </button>
+            <p>Already have an account! <a href="">login</a></p>
+        </form>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
